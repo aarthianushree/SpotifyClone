@@ -2,7 +2,7 @@ export const authEndPoint = "https://accounts.spotify.com/authorize";
 
 const redirectUri = "http://localhost:3000/";
 
-const clientId = "d31e60b0d4ce4b288a271e4175df97b7"
+const clientId = "" // your spolity client id
 
 //scopes:
 const scopes = [ 
