@@ -1,0 +1,5 @@
+/* should display a flex that is attached to each other but in different direction*/
+
+.player_body{
+    display: flex;
+}

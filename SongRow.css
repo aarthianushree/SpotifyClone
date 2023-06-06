@@ -1,0 +1,106 @@
+.songRow{
+    margin-left: -25px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.songRow:hover{
+    cursor: pointer;
+    background: linear-gradient(to left, rgba(2, 2, 2, 0.7), rgba(0,0,0,0.5));
+    opacity: 0.8;
+}
+
+.songRow_info{
+    margin-left: 0px;
+   
+}
+
+.songRow_info > p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.songRow_info > h1{
+    font-size: 18px;
+    margin-top: 3px;
+    color: rgb(199, 189, 189);
+}
+
+.songRow_info > h4{
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.songRow_info > h3{
+    font-size: 14px;
+    margin-left:250px;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: gray;
+   
+}
+
+.songRow_info > h2{
+    font-size: 14px;
+    margin-left:600px;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: gray;
+   
+}
+
+.songRow_info > h5{
+    font-size: 14px;
+    margin-left:920px;
+    margin-right: 10px;
+    margin-top: 0px;
+    color: gray;
+   
+}
+
+.releasedate{
+    font-size: 14px;
+    margin-left:20px;
+    color: gray;
+}
+.duration{
+    font-size: 14px;
+    margin-right:0px;
+    color: gray;
+}
+
+.songRow_album{
+    height: 60px;
+    width: 60px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 250px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+  }
+  .one {
+    
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 4;
+    grid-row: 1;
+  }
+ 

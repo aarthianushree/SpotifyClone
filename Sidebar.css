@@ -1,0 +1,44 @@
+.sidebar{
+    position: fixed; 
+    width: 300px;
+    
+    height: 83vh;
+    color: white;
+    flex: 0.35;  /* 2% */
+    padding: 20px;
+    background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,1));
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: overlay;
+    border-radius: 0px;
+    margin-top: 0px;
+    
+}
+
+img{
+  max-width: 200px;
+  min-width: 100px;
+  object-fit: contain;
+  overflow-y: overlay;
+}
+
+.sidebar_logo{
+    
+   object-fit: contain;/*keeps the exact ratio when reduced or increased on height*/
+    height: 70px;
+    width: 10px;
+    padding: 10px;
+    margin-right: auto;
+    
+}
+
+.sidebar_title{
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.sidebar > hr{
+  border: 1px solid #282828;
+  width:90%;
+  margin: 10px auto;  /*top & down is 10px*/
+}

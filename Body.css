@@ -1,0 +1,154 @@
+.body{
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 0px;
+    height: 100vh;
+    width:100%;
+   padding-top: 20px;
+   margin-left: 320px;
+   margin-right: 0px;
+   background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,1));
+    color: white;
+    padding-left: 20px;
+    overflow-y: overlay;
+    
+    
+}
+
+.body_info{
+    margin-top: 70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.body_info > img{
+    
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0,0,0,10);
+}
+
+.body_infoText{
+    flex: 1;
+}
+
+
+
+.body_infoText > h2{
+    font-size: 55px;
+    margin-bottom: 10px;
+
+}
+
+.body_infoText > p{
+   font-size: 14px;
+}
+
+.body_icon{
+    display:flex;
+   
+}
+.body_iconLeft{
+   display: flex;
+   align-items: center;
+
+}
+.body_iconRight{
+    display: flex;
+    color:rgb(200, 191, 191);
+    align-items: center;
+    margin-left: 670px;
+}
+
+.body_iconLeft > .MuiSvgIcon-root{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.body_iconRight > .MuiSvgIcon-root{
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.body_shuffle{
+    font-size: 80px !important;
+    
+}
+
+.body_shuffle:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+.body_shuffled:hover{
+    transition: 100ms transform ease-in;
+    transform: scale(1.08);
+}
+
+/* .body_song{
+     margin: 20px -30px; /*bcoz */
+
+
+.body_title{
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin-top: 0px;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.body_title > h3{
+   font-size: 18px;
+   margin-left: 10px;
+}
+
+.body_title > h2{
+    font-size: 18px;
+   margin-left: 300px;
+}
+
+.body_title > h4{
+    font-size: 18px;
+   margin-left: 280px;
+}
+
+.body_title > p{
+    font-size: 18px;
+   margin-left: 235px;
+}
+
+/* .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 250px;
+    grid-auto-rows: minmax(100px, auto);
+    align-items: center;
+  }
+  .one {
+    
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 4;
+    grid-row: 1;
+  } */
+
+.body_height{
+    height: 120px;
+}
+
+  

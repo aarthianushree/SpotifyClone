@@ -1,0 +1,45 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in; /* 200ms delay of time where the color brightens and lightens smoothly --------- like animation */
+    
+}
+
+.sidebarOption:hover {
+    color: white;
+}
+
+.sidebarOption_icon{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .sidebarOption > p{ */
+    /* display: flex; */
+    /* margin-left: 5px;
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px; */
+    /* align-items: center; */
+    /* flex-wrap :wrap; */
+
+/* margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: white; */
+    /* font-size: 20px;
+    margin-top: 3px; */
+
+.recentTitles{
+    overflow-y: overlay;
+    margin-left: 5px;
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+}
